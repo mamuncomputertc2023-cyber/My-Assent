@@ -7,7 +7,7 @@ app = Flask(__name__)
 VERIFY_TOKEN = "myverify123"
 
 # 🔹 Put your NEW Page Access Token here
-PAGE_ACCESS_TOKEN = "EAAMwZBWNnX1wBQw2wDmbGKsJUoj5I8lJYut3Vtv9jtwZBYamIuPl3uUa9IOmHPaCAcEqAC082RdS1GFLhm3A9HAGrvCEQWLGFGPfmZCHNE6SQlLBxnNXKcBUULTZADJvDjcis53KsHeMS5Hup5AtrqIQeYRM3AIuqaOmgUVFHI3WA97B6DMYSx4DC6oCnA4K6gZA6vAnCu6WA2kMGzfzkIAZDZD"
+PAGE_ACCESS_TOKEN = "EAAMwZBWNnX1wBQ6plZBRK1Qz1qX9yV4tvEzcf0lZAWBXQfqREJLfJ6Lv1aOPZCPRYf9Nr6C0ZBlzlaScbXOLBhcbQ9Y1K2GSdMQY9gt1UNvOEe2JOB1ZAUAzmsqFiIsNA2AoWBcOXqtYZBRNVcGjaw1VhKQFxQWhy2gJE5GlOBnG93ZBmORN8uoYZB1fQZAhxmW6OIAwo3urC1stQvZBm2vPfUODAZDZD"
 
 
 def send_message(recipient_id, message_text):
@@ -52,4 +52,5 @@ def webhook():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=10000)
+
 
